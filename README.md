@@ -1,7 +1,7 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/tu-usuario/bimarron/main/assets/logo.jpeg" alt="BiMarrón Logo" width="120" />
-  # BiMarrón
+<img src="https://github.com/rhystic-code/bithon/blob/main/assets/logo.jpeg" alt="BiMarrón Logo" width="120" />
+  # bithon
   ### Business Intelligence Toolkit
 
   ---
@@ -13,9 +13,9 @@
 
 </div>
 
-## 📌 ¿Qué es BiMarrón?
+## 📌 ¿Qué es bithon?
 
-**BiMarrón** es un toolkit educativo en Python diseñado específicamente para estudiantes y profesionales de **Inteligencia de Negocios**. 
+**bithon** es un toolkit educativo en Python diseñado específicamente para estudiantes y profesionales de **Inteligencia de Negocios**. 
 
 Proporciona un DSL (*Domain-Specific Language*) con sintaxis fluida y expresiva sobre el motor ultra rápido de **DuckDB**, permitiendo enfocarse 100% en el **razonamiento analítico, la calidad de datos, el modelado dimensional y los KPIs**, sin lidiar con sintaxis complejas o configuraciones pesadas de servidores.
 
@@ -33,17 +33,17 @@ Proporciona un DSL (*Domain-Specific Language*) con sintaxis fluida y expresiva 
 
 ## 📦 Instalación
 
-Puedes instalar **BiMarrón** directamente desde GitHub usando `pip`:
+Puedes instalar **bithon** directamente desde GitHub usando `pip`:
 
 ```bash
-pip install git+https://github.com/pakouabc/bimarron.git
+pip install git+https://github.com/pakouabc/bithon.git
 ```
 
 ## Ejemplo de Uso
 Un pipeline completo de Inteligencia de Negocios en unos pocos pasos:
 
 ```python
-from bimarron import BIEngine
+from bithon import BIEngine
 
 # 1. Inicializar con la tabla de hechos
 analisis = (
